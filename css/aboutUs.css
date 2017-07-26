@@ -1,0 +1,97 @@
+.aboutUs__text {
+	max-width: 580px;
+	display: inline-block;
+	color: white;
+	font-size: 0.85em;
+}
+.aboutUs__top-block {
+	padding-left: 222px;
+	position: relative;
+}
+.aboutUs__top-block::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	clear: both;
+	content: "ihihig";
+	width: 195px;
+	height: 300px;
+	background: url("../img/doe.jpg") no-repeat;
+	font-size: 0;
+}
+.text-part1,
+.text-part2 {
+	margin: 0;
+	padding: 0;
+}
+.text-part1 {
+	margin-bottom: 35px;
+}
+.text-part2 {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	color: #F39C12;
+	font-weight: bold;
+}
+.aboutUs__text span {
+	font-size: 1em;
+	line-height: 1.6em;
+}
+.skills-block {
+	margin: 0;
+	padding: 0;
+	padding-top: 35px;
+	font-size: 1.2em;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+.skills__title {
+	margin: 0;
+	padding: 0;
+}
+.skills {
+	position: relative;
+	width: 535px;
+	-webkit-border-radius: 10px;
+		    border-radius: 10px;
+	background: black;
+	padding: 10px 23px 10px 15px;
+}
+.skills span {
+	position: absolute;
+	right: 23px;
+}
+.skills::before {
+	position: absolute;
+	clear: both;
+	top: 0;
+	bottom: 0;
+	content: "";
+	background: #f39c12;
+	color: #f39c12;
+	height: 40px;
+	-webkit-border-radius: 10px;
+		    border-radius: 10px;
+	color: white;
+	padding: 10px 23px;
+	margin-left: -15px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	text-transform: none;
+	
+	
+}
+.skills__bg1::before {
+	width: 410px;
+	content: "Portraits";
+}
+.skills__bg2::before {
+	width: 460px;
+	content: "Editorial";
+}
+.skills__bg3::before {
+	width: 350px;
+	content: "Fashion";
+}
+
+	
