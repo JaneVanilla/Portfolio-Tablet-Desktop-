@@ -9,6 +9,8 @@ ul {
 	padding: 0;
 	list-style: none;
 }
+input {
+	color: white;
 .page {
 	display: flex;
 	-webkit-justify-content: center;
