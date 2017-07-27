@@ -11,6 +11,7 @@ ul {
 }
 input {
 	color: white;
+}
 .page {
 	display: flex;
 	-webkit-justify-content: center;
