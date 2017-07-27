@@ -9,7 +9,8 @@ ul {
 	padding: 0;
 	list-style: none;
 }
-input {
+input,
+textarea {
 	color: white;
 }
 .page {
